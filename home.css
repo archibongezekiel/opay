@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 27%;
+  padding: 15px;
+}
+#mypic {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+.border {
+  border-bottom: 1px solid #eee;
+  margin-left: 27%;
+  width: 50%;
+}
+.user-name {
+  margin-left: 10px;
+  color: #8497a4;
+  font-weight: 100;
+}
+.message {
+  color: #8497a4;
+  position: relative;
+  left: 27%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.material-symbols-outlined {
+  color: #8497a4;
+  margin-left: 50px;
+  color: #eee;
+  border-radius: 20px;
+  width: 60px;
+}
+#big {
+  font-size: 58px;
+}
+.display,
+.displays {
+  display: flex;
+  margin-top: 35px;
+  position: relative;
+  left: 27%;
+}
+.list a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  margin-left: 40px;
+}
+
+p {
+  text-align: center;
+  margin-left: 45px;
+  color: #515f68;
+}
+.displays {
+  display: flex;
+}
+.title {
+  margin-left: 20px;
+}
+#bank {
+  margin-left: 55px;
+}
+.number1 {
+  background-color: #f5d32c;
+}
+.number2 {
+  background-color: #1dcf9f;
+}
+.number3 {
+  background-color: #1dcf9f;
+}
+.number4 {
+  background-color: #f5d32c;
+}
+.number5 {
+  background-color: #1dcf9f;
+}
+.number6 {
+  background-color: #f5d32c;
+}
+.flame {
+  margin-top: 50px;
+}
+.data {
+  display: flex;
+}
+h3 {
+  font-weight: 500;
+  color: #323233;
+
+  position: relative;
+  font-size: 23px;
+  left: 39%;
+}
+h3:hover {
+  border-bottom: 3px solid #1dcf9f;
+  border-radius: 1px;
+}
+.betting {
+  margin-left: 18%;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 20px;
+  height: 60px;
+  position: relative;
+  width: 46%;
+  left: 30%;
+  background-color: #eef4f8;
+  border-radius: 7px;
+  font-size: 17px;
+  color: #29303a;
+  margin-top: 41px;
+}
+.airtime-date {
+  background-color: #eef4f8;
+  height: 88px;
+  padding: 20px;
+  border-radius: 7px;
+  position: relative;
+  width: 46%;
+  left: 30%;
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+}
+.mtn {
+  width: 50px;
+}
+.arrow {
+  color: #29303a;
+  position: relative;
+  width: 46%;
+  left: 67%;
+}
+.subscrition {
+  display: flex;
+  width: 46%;
+
+  position: relative;
+  height: 330px;
+  left: 30%;
+  margin-top: 50px;
+  font-size: 17px;
+}
+.mb {
+  height: 110px;
+  width: 100px;
+  padding: 16px;
+  width: 108px;
+  margin-top: 10px;
+  color: #515f68;
+  border: 2px solid #1dcf9f;
+  margin-left: 20px;
+}
+#img {
+  width: 23px;
+  position: relative;
+  left: 35px;
+  bottom: 16px;
+}
+.underscore {
+  margin-left: 20px;
+}
+.network {
+}

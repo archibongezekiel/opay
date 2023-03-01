@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="NBA.css" />
+    <!--home icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <!--arrow back icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!--favicon -->
+    <link rel="shortcut icon" href="image/download.png" type="image/x-icon" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!--Header  -->
+    <header>
+      <nav class="header">
+        <ul>
+          <li class="list-style">
+            <a class="link" href="#"
+              ><span id="icons" class="material-symbols-outlined">
+                arrow_back_ios
+              </span></a
+            >
+          </li>
+          <li class="list-style"><a class="link" href="#">Login</a></li>
+          <li class="list-style">
+            <a class="link" href="#"
+              ><span id="icons" class="material-symbols-outlined"> home </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="border"></div>
+    <br />
+    <br />
+    <!--Main page welcome icon-->
+    <main id="symbol">
+      <div class="welcome">
+        <img src="image/downloadopay.png" alt="" />
+        <h2 id="data">welcome to Opay</h2>
+      </div>
+    </main>
+    <br />
+    <br />
+
+    <!--Login information-->
+    <label for="conacts"> <h1>Phone Number</h1></label>
+    <br />
+    <section class="number-flag-control">
+      <div class="phone-number">
+        <!--country code-->
+        <div id="country-flag">
+          <img
+            class="flag"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAAlkkYmk0YlkkX////6rxKHAAAAA3RSTlMA40mAJZ3FAAAAL0lEQVQ4y2MYBZhA0RgMXCAAwhECSQhjkTAESRhjkTAelRiVgEvgTD64E9wowAQABVN4M1BfmNoAAAAASUVORK5CYII="
+            alt=""
+          />
+        </div>
+        <div class="country-code">
+          <p>+234</p>
+        </div>
+      </div>
+
+      <div class="contacts-input">
+        <input
+          type="text"
+          name="phone-Number"
+          id="conacts"
+          placeholder="Please Enter Your Phone Number"
+          class="input"
+          maxlength="11"
+        />
+      </div>
+    </section>
+
+    <br /><br />
+    <!--password input-->
+    <section class="password-container">
+      <label for="pin"><h1>Password</h1></label>
+      <br />
+      <input
+        type="password"
+        name=""
+        id="pin"
+        class="password"
+        placeholder="6 digits"
+      />
+    </section>
+    <br /><br /><br />
+    <!--logi in button-->
+    <div id="button-contain">
+      <button type="submit" class="button con confirm" id="confirm">
+        Confirm
+      </button>
+      <br /><br />
+      <br /><br />
+      <button type="submit" class="button register">
+        <a href="register.html">Register</a>
+      </button>
+    </div>
+    <script src="NBA.js"></script>
+  </body>
+</html>
