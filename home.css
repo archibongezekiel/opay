@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  vertical-align: none;
+}
 .user-info {
   display: flex;
   align-items: center;
@@ -10,7 +13,7 @@
   left: 27%;
   padding: 15px;
 }
-#mypic {
+#pic {
   width: 35px;
   height: 35px;
   border-radius: 100px;
@@ -33,15 +36,14 @@
   font-size: 20px;
   font-weight: 100;
 }
-.material-symbols-outlined {
+
+#big {
+  font-size: 58px;
   color: #8497a4;
   margin-left: 50px;
   color: #eee;
   border-radius: 20px;
   width: 60px;
-}
-#big {
-  font-size: 58px;
 }
 .display,
 .displays {
@@ -146,12 +148,10 @@ input {
   width: 46%;
   left: 67%;
 }
-.subscrition {
+.subscription {
   display: flex;
-  width: 46%;
 
   position: relative;
-  height: 330px;
   left: 30%;
   margin-top: 50px;
   font-size: 17px;
@@ -175,5 +175,51 @@ input {
 .underscore {
   margin-left: 20px;
 }
-.network {
+.flame {
+  height: 500px;
+}
+footer {
+  position: relative;
+  bottom: 400px;
+  display: none;
+  height: 0;
+  z-index: 1;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid rgba(132, 151, 164, 0.2);
+  background-color: #fff;
+}
+.mtn-network-operator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+p {
+  font-size: 20px;
+}
+.mtn-network-operator {
+  border-bottom: 1px solid rgba(132, 151, 164, 0.2);
+  padding: 5px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.close-icon {
+  color: #29303a;
+  cursor: default;
+}
+.done {
+  color: #1dcf9f;
+}
+.test {
+  display: flex;
+  align-items: center;
 }
