@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Satisfy&family=Zilla+Slab:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 body {
-  vertical-align: none;
+  font-family: "Noto Sans NKo", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Zilla Slab", serif;
+  font-size: 18px;
+  background-color: #fff;
 }
 .user-info {
   display: flex;
@@ -36,190 +43,143 @@ body {
   font-size: 20px;
   font-weight: 100;
 }
-
-#big {
-  font-size: 58px;
-  color: #8497a4;
-  margin-left: 50px;
-  color: #eee;
-  border-radius: 20px;
-  width: 60px;
-}
-.display,
-.displays {
+.container {
+  width: 80vh;
   display: flex;
-  margin-top: 35px;
-  position: relative;
-  left: 27%;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  margin: auto;
 }
-.list a {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-  margin-left: 40px;
-}
-
-p {
+.add,
+.with,
+.trans,
+.life,
+.oweal,
+.bank {
   text-align: center;
-  margin-left: 45px;
-  color: #515f68;
 }
-.displays {
-  display: flex;
+#draw,
+#transfer,
+#style,
+#weal,
+#card,
+#money {
+  background-color: aquamarine;
+  border-radius: 20;
+  font-size: 65px;
+  color: #8497a4;
 }
-.title {
-  margin-left: 20px;
-}
-#bank {
-  margin-left: 55px;
-}
-.number1 {
-  background-color: #f5d32c;
-}
-.number2 {
-  background-color: #1dcf9f;
-}
-.number3 {
-  background-color: #1dcf9f;
-}
-.number4 {
-  background-color: #f5d32c;
-}
-.number5 {
-  background-color: #1dcf9f;
-}
-.number6 {
-  background-color: #f5d32c;
-}
-.flame {
+.container-x {
+  border: 2px solid rgba(132, 151, 164, 0.2);
+  width: 83vh;
+  margin: auto;
   margin-top: 50px;
+  box-shadow: 0 0.05333rem 0.26667rem 0 rgba(49, 108, 169, 0.15);
 }
-.data {
+.input-container {
   display: flex;
-}
-h3 {
-  font-weight: 500;
-  color: #323233;
+  justify-content: center;
+  margin-top: 60px;
 
-  position: relative;
-  font-size: 23px;
-  left: 39%;
-}
-h3:hover {
-  border-bottom: 3px solid #1dcf9f;
-  border-radius: 1px;
-}
-.betting {
-  margin-left: 18%;
+  width: 80vh;
+  margin: auto;
+  font-family: "Noto Sans NKo", sans-serif;
 }
 input {
   outline: none;
   border: none;
-  padding: 20px;
+  padding: 23px;
   height: 60px;
-  position: relative;
-  width: 46%;
-  left: 30%;
+  width: 80vh;
   background-color: #eef4f8;
-  border-radius: 7px;
+  border-radius: 8px;
   font-size: 17px;
   color: #29303a;
-  margin-top: 41px;
 }
-.airtime-date {
+.text-container {
+  width: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  padding: 40px;
+}
+.data-container {
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
   background-color: #eef4f8;
-  height: 88px;
+  width: 80vh;
+  margin: auto;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 40px;
+}
+.data-offer {
+  width: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #8497a4;
+  padding: 10px;
+  padding: 30px;
+}
+#MB {
   padding: 20px;
-  border-radius: 7px;
-  position: relative;
-  width: 46%;
-  left: 30%;
-  margin-top: 41px;
+  text-align: center;
+  border: 2px solid rgba(132, 151, 164, 0.2);
+  margin-top: 10px;
+  width: 20%;
+  border-radius: 2px;
+}
+#MB:hover {
+  border: 5px solid #1dcf9f;
+}
+.second-con {
   display: flex;
   align-items: center;
 }
-.mtn {
-  width: 50px;
+#pay50 {
+  border: 10px solid black;
 }
-.arrow {
-  color: #29303a;
-  position: relative;
-  width: 46%;
-  left: 67%;
-}
-.subscription {
-  display: flex;
 
+ul {
+  color: #323233;
   position: relative;
-  left: 30%;
-  margin-top: 50px;
-  font-size: 17px;
-}
-.mb {
-  height: 110px;
-  width: 100px;
-  padding: 16px;
-  width: 108px;
-  margin-top: 10px;
-  color: #515f68;
-  border: 2px solid #1dcf9f;
-  margin-left: 20px;
-}
-#img {
-  width: 23px;
-  position: relative;
-  left: 35px;
-  bottom: 16px;
-}
-.underscore {
-  margin-left: 20px;
-}
-.flame {
-  height: 500px;
-}
-footer {
-  position: relative;
-  bottom: 400px;
-  display: none;
+  bottom: 50vh;
   height: 0;
-  z-index: 1;
-
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.footer {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
   border: 1px solid rgba(132, 151, 164, 0.2);
+  display: none;
+}
+.MTN-network,
+.AIRTEL-network,
+.GLO-network,
+.MOBILE {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(132, 151, 164, 0.2);
+  padding: 10px;
   background-color: #fff;
 }
-.mtn-network-operator {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
 }
-p {
-  font-size: 20px;
-}
-.mtn-network-operator {
-  border-bottom: 1px solid rgba(132, 151, 164, 0.2);
+.inline {
+  display: flex;
+  align-items: center;
   padding: 5px;
 }
-.line {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
+.title {
+  padding: 3px;
 }
-.close-icon {
-  color: #29303a;
-  cursor: default;
-}
-.done {
-  color: #1dcf9f;
-}
-.test {
+#network-change1 {
   display: flex;
   align-items: center;
 }
