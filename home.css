@@ -105,6 +105,15 @@ input {
   font-size: 22px;
   padding: 40px;
 }
+
+#air:hover {
+  border-bottom: 4px solid #1dcf9f;
+  border-radius: 1px;
+}
+#bet:hover {
+  border-bottom: 4px solid #1dcf9f;
+  border-radius: 1px;
+}
 .data-container {
   display: flex;
   border-radius: 8px;
