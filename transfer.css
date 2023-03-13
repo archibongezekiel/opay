@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Satisfy&family=Zilla+Slab:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  font-family: "Noto Sans NKo", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Zilla Slab", serif;
+}
+
+.head {
+  border: 1px solid red;
+  width: 80vh;
+  margin: auto;
+  color: #1dcf9f;
+}
+.container {
+  border: 1px solid blue;
+  width: 80vh;
+  margin: auto;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+#font {
+  font-size: 30px;
+}
+h3 {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.account {
+  border: 1px solid red;
+  margin: auto;
+  display: flex;
+  margin-top: 43px;
+  flex-direction: column;
+  width: 80vh;
+}
+#title,
+#naira-sign {
+  font-size: 20px;
+  color: #515f68;
+  font-weight: 900;
+  padding: 10px;
+}
+.input-account {
+  outline: none;
+  border: none;
+  padding: 23px;
+  height: 60px;
+
+  background-color: #eef4f8;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #29303a;
+}
+.amount {
+  border: 1px solid red;
+  margin: auto;
+  width: 80vh;
+  margin-top: 43px;
+}
+.naira {
+  background-color: #eef4f8;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 8px;
+  height: 60px;
+  text-align: center;
+  margin-right: 10px;
+}
+#style {
+  display: flex;
+  align-items: center;
+}
+.input-amount {
+  outline: none;
+  border: none;
+  padding: 23px;
+  height: 60px;
+  width: 78vh;
+  background-color: #eef4f8;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #29303a;
+}
+#user-name {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+  color: #1dcf9f;
+  display: non;
+}
+#buttom-container {
+  border: 1px solid red;
+  margin-top: 43px;
+  width: 80vh;
+  margin: auto;
+  margin-top: 43px;
+}
+.button {
+  border: none;
+  background-color: #1dcf9f;
+  width: 80vh;
+  height: 60px;
+  border-radius: 7px;
+  color: #eef4f8;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #1dcf9f;
+}
