@@ -15,6 +15,7 @@ body {
   width: 80vh;
   margin: auto;
   color: #1dcf9f;
+  border-bottom: 0.02667rem solid #eee;
 }
 .container {
   width: 80vh;

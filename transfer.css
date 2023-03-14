@@ -12,13 +12,57 @@ body {
   background-color: #fff;
 }
 .head {
-  border: 1px solid red;
   width: 80vh;
   margin: auto;
   color: #1dcf9f;
+  border-bottom: 0.02667rem solid #eee;
 }
+#transfer-option {
+  display: flex;
+  flex-direction: column;
+  height: 16vh;
+  width: 80vh;
+  margin: auto;
+}
+#button {
+  display: flex;
+  justify-content: space-between;
+}
+#o {
+  color: #1dcf9f;
+}
+#button-1,
+#button-2 {
+  border: none;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  padding: 25px;
+  justify-content: center;
+  border-radius: 7px;
+  color: #515f68;
+  background: #eef4f8;
+  border-bottom: 0.02667rem solid #eee;
+  font-size: 25px;
+}
+#button-1:focus {
+  background-color: #1dcf9f;
+}
+#button-2:focus {
+  background-color: #1dcf9f;
+}
+
+#button-1:focus,
+#person {
+  color: #eef4f8;
+}
+
+#button-2:focus,
+#bank {
+  color: #eef4f8;
+}
+
 .container {
-  border: 1px solid blue;
   width: 80vh;
   margin: auto;
 }
@@ -41,7 +85,6 @@ h3 {
 }
 
 .account {
-  border: 1px solid red;
   margin: auto;
   display: flex;
   margin-top: 43px;
@@ -67,7 +110,6 @@ h3 {
   color: #29303a;
 }
 .amount {
-  border: 1px solid red;
   margin: auto;
   width: 80vh;
   margin-top: 43px;
@@ -104,7 +146,6 @@ h3 {
   display: non;
 }
 #buttom-container {
-  border: 1px solid red;
   margin-top: 43px;
   width: 80vh;
   margin: auto;
