@@ -7,6 +7,7 @@
   font-family: "Noto Sans NKo", sans-serif;
   font-family: "Satisfy", cursive;
   font-family: "Zilla Slab", serif;
+  color: #8497a4;
 }
 body {
   background-color: #fff;
@@ -14,41 +15,25 @@ body {
 .head {
   width: 80vh;
   margin: auto;
-  color: #1dcf9f;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 .container {
   width: 80vh;
   margin: auto;
-  margin-top: 40px;
-}
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-li {
-  list-style: none;
-}
-#font {
-  font-size: 30px;
-}
-h3 {
-  font-weight: 100;
-  font-size: 25px;
 }
 
 .account {
   margin: auto;
   display: flex;
-  margin-top: 43px;
+  margin-top: 50px;
   flex-direction: column;
   width: 80vh;
-  margin-top: 50px;
 }
-#title,
-#naira-sign {
+#title {
   font-size: 20px;
   color: #515f68;
   font-weight: 900;
@@ -59,6 +44,7 @@ h3 {
   border: none;
   padding: 23px;
   height: 60px;
+
   background-color: #eef4f8;
   border-radius: 8px;
   font-size: 17px;
@@ -67,16 +53,19 @@ h3 {
 .amount {
   margin: auto;
   width: 80vh;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .naira {
   background-color: #eef4f8;
   padding: 10px;
   font-size: 30px;
   border-radius: 8px;
-  height: 60px;
   text-align: center;
+  height: 60px;
+  align-items: center;
   margin-right: 10px;
+
+  display: flex;
 }
 #style {
   display: flex;
@@ -93,22 +82,27 @@ h3 {
   font-size: 17px;
   color: #29303a;
 }
-#user-name {
-  display: flex;
-  align-items: center;
-  margin: 3px;
-  color: #1dcf9f;
-  display: non;
-}
+
 #buttom-container {
-  margin-top: 60px;
+  margin-top: 43px;
   width: 80vh;
   margin: auto;
-  margin-top: 43px;
+  margin-top: 50px;
 }
 .button {
   border: none;
   background-color: #1dcf9f;
+  width: 80vh;
+  height: 60px;
+  border-radius: 7px;
+  color: #eef4f8;
+  font-size: 20px;
+}
+#confirm {
+  background-color: #8497a4;
+  margin-bottom: 30px;
+  border: none;
+
   width: 80vh;
   height: 60px;
   border-radius: 7px;
