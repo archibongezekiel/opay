@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--css style-->
-    <link rel="stylesheet" href="transfer.css" />
+    <link rel="stylesheet" href="bank.css" />
     <link
       rel="shortcut icon"
       href="image/downloadopay.png"
@@ -39,12 +39,22 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <!--navigate next -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!--done-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <title>Transfer</title>
   </head>
   <body>
     <header class="head">
       <nav>
-        <ul>
+        <ul class="ul">
           <li>
             <a href="Home.html">
               <span class="material-symbols-outlined" id="font">
@@ -64,17 +74,23 @@
     <div id="transfer-option">
       <span id="title">Send to</span>
       <div id="button">
-        <button id="button-1">
+        <button href="transfer.html" id="button-1">
           <span class="material-symbols-outlined" id="person o"> person </span
           >Person
         </button>
-
-        <button id="button-2">
+        <button href="bank.html" id="button-2">
           <span class="material-symbols-outlined" id="bank o">
             account_balance </span
           >Bank
         </button>
       </div>
+    </div>
+    <div class="bank-name-select">
+      <span id="title">Bank name</span>
+      <span class="bank_names">
+        <span id="title">Kuda MFB</span>
+        <span class="material-symbols-outlined"> navigate_next </span></span
+      >
     </div>
     <main class="container">
       <div class="account">
@@ -85,10 +101,13 @@
           id="number"
           class="input-account"
           placeholder="Enter account number"
+          maxlength="10"
         />
-        <span id="user-name"
-          ><span class="material-symbols-outlined"> verified </span>Ezekiel
-          Bassey Archibong</span
+        <span class="flex">
+          <span id="user-name"
+            ><span class="material-symbols-outlined"> verified </span
+            ><span id="error">Ezekiel Bassey Archibong</span>
+          </span></span
         >
       </div>
       <div class="amount">
@@ -99,7 +118,7 @@
           <input
             type="text"
             name=""
-            id="amount  "
+            id="amount"
             class="input-amount"
             placeholder="0"
           />
@@ -115,10 +134,34 @@
           placeholder="Enter message"
         />
       </div>
-      <div id="buttom-container">
+      <div id="button-container">
         <button type="submit" class="button">Done</button>
       </div>
     </main>
-    <script src="transfer.js"></script>
+    <footer class="list-of-banks">
+      <div id="scroll" class="A-bank">
+        <span>Select Bank operator</span
+        ><span class="material-symbols-outlined" id="close"> close </span>
+      </div>
+      <ul class="scroll">
+        <li id="A-bank">Access Bank <s</li>
+        <li id="A-bank">CROSS RIVER MICROFINANCE LTD</li>
+        <li id="A-bank">Diamond Bank</li>
+        <li id="A-bank">EcoBank Nigeria</li>
+        <li id="A-bank">FCMB Bank</li>
+        <li id="A-bank">FairMoney MFB</li>
+        <li id="A-bank">Fidelity Bank</li>
+        <li id="A-bank">First Bank Of Nigeria</li>
+        <li id="A-bank">Guaranty Trust Bank</li>
+        <li id="A-bank">Heritage Bank</li>
+        <li id="A-bank">Keystone Bank</li>
+        <li id="A-bank">Stanbic Bank Plc</li>
+        <li id="A-bank">Union Bank Of Nigeria</li>
+        <li id="A-bank">Unity Bank Plc</li>
+        <li id="A-bank">United Bank For Africa</li>
+        <li id="A-bank">Zenith Bank</li>
+      </ul>
+    </footer>
+    <script src="bank.js"></script>
   </body>
 </html>

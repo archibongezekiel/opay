@@ -8,11 +8,12 @@
   font-family: "Satisfy", cursive;
   font-family: "Zilla Slab", serif;
 }
-a {
-  text-decoration: none;
+html {
+  scroll-behavior: smooth;
 }
 body {
   background-color: #fff;
+  margin-bottom: 20px;
 }
 .head {
   width: 80vh;
@@ -26,6 +27,20 @@ body {
   height: 16vh;
   width: 80vh;
   margin: auto;
+}
+.bank-name-select {
+  margin: auto;
+  width: 80vh;
+  display: flex;
+  flex-direction: column;
+  height: 14vh;
+}
+.bank_names {
+  display: flex;
+  align-items: center;
+  height: 9vh;
+  justify-content: space-between;
+  background-color: #eef4f8;
 }
 #button {
   display: flex;
@@ -49,9 +64,9 @@ body {
   font-size: 25px;
 }
 
-#button-1 {
-  background-color: #1dcf9f;
+#button-2 {
   color: #eef4f8;
+  background-color: #1dcf9f;
 }
 
 #button-1:focus,
@@ -62,12 +77,15 @@ body {
 #bank {
   color: #eef4f8;
 }
-
+a {
+  color: #1dcf9f;
+  text-decoration: none;
+}
 .container {
   width: 80vh;
   margin: auto;
 }
-ul {
+.ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +97,6 @@ li {
 }
 #font {
   font-size: 30px;
-  color: #1dcf9f;
 }
 h3 {
   font-weight: 100;
@@ -140,14 +157,16 @@ h3 {
   font-size: 17px;
   color: #29303a;
 }
+.flex {
+  display: none;
+}
 #user-name {
-  display: flex;
   align-items: center;
   margin: 3px;
   color: #1dcf9f;
-  display: non;
+  display: flex;
 }
-#buttom-container {
+#button-container {
   margin-top: 43px;
   width: 80vh;
   margin: auto;
@@ -162,4 +181,28 @@ h3 {
   border-radius: 7px;
   color: #eef4f8;
   font-size: 20px;
+}
+#scroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  position: relative;
+  display: none;
+  height: 0;
+  bottom: 90vh;
+  background-color: #fff;
+  border: 0.02667rem solid #eee;
+}
+#A-bank,
+.A-bank {
+  border-bottom: 0.02667rem solid #eee;
+  background-color: #fff;
+  padding: 35px;
+}
+.scroll {
+  height: 90vh;
+  overflow-y: scroll;
+  background-color: #fff;
 }
