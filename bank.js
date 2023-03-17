@@ -1,5 +1,3 @@
-let bank_Names = document.querySelector(".bank-name-select");
-
 let list_of_banks = document.querySelector(".list-of-banks");
 
 let close = document.querySelector("#close");
@@ -12,7 +10,14 @@ let error = document.querySelector("#error").innerHTML;
 
 let buttonPerson1 = document.querySelector("#button-1");
 
-bank_Names.addEventListener("click", () => {
+let bank_names11 = document.querySelector(".bank_names");
+
+let bankChange = document.querySelector(".bank");
+
+let messageInput = document.querySelector("#message");
+let amount = document.querySelector("#amount");
+
+bank_names11.addEventListener("click", () => {
   list_of_banks.style.display = "block";
 });
 
@@ -30,7 +35,32 @@ accountNumber.addEventListener("change", () => {
     user_name.style.display = "inline";
   }
 }*/
-
+function nameMe(e) {
+  bankChange.innerText = e;
+  list_of_banks.style.display = "none";
+}
 buttonPerson1.addEventListener("click", () => {
   window.open("transfer.html", "_parent");
+});
+function tim() {
+  setTimeout(() => {
+    window.location.reload();
+  }, 3000);
+}
+messageInput.addEventListener("change", () => {
+  if (
+    (messageInput.value === String() && amount.value === Number()) ||
+    accountNumber.value === "2037711489"
+  ) {
+    document.querySelector("#button-container").style.opacity = 4;
+    document.querySelector(".button").style.cursor = "default";
+    setTimeout(() => {
+      window.location.reload();
+    }, 10000);
+  } else {
+    user_name.style.display = "inline";
+    user_name.innerText = "Account name failed";
+    user_name.style.color = "red";
+    tim();
+  }
 });

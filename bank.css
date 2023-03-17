@@ -181,11 +181,13 @@ h3 {
   border-radius: 7px;
   color: #eef4f8;
   font-size: 20px;
+  cursor: no-drop;
 }
 #scroll {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 0.1rem solid #515f68;
 }
 footer {
   position: relative;
@@ -200,6 +202,8 @@ footer {
   border-bottom: 0.02667rem solid #eee;
   background-color: #fff;
   padding: 35px;
+  display: flex;
+  justify-content: space-between;
 }
 .scroll {
   height: 90vh;

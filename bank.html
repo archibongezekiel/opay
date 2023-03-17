@@ -88,7 +88,7 @@
     <div class="bank-name-select">
       <span id="title">Bank name</span>
       <span class="bank_names">
-        <span id="title">Kuda MFB</span>
+        <span id="title" class="bank">Select Bank</span>
         <span class="material-symbols-outlined"> navigate_next </span></span
       >
     </div>
@@ -121,6 +121,7 @@
             id="amount"
             class="input-amount"
             placeholder="0"
+            maxlength="10"
           />
         </div>
       </div>
@@ -129,9 +130,11 @@
         <input
           type="text"
           name=""
-          id="number"
+          id="message"
+
           class="input-account"
           placeholder="Enter message"
+          maxlength="20"
         />
       </div>
       <div id="button-container">
@@ -144,22 +147,74 @@
         ><span class="material-symbols-outlined" id="close"> close </span>
       </div>
       <ul class="scroll">
-        <li id="A-bank">Access Bank <s</li>
-        <li id="A-bank">CROSS RIVER MICROFINANCE LTD</li>
-        <li id="A-bank">Diamond Bank</li>
-        <li id="A-bank">EcoBank Nigeria</li>
-        <li id="A-bank">FCMB Bank</li>
-        <li id="A-bank">FairMoney MFB</li>
-        <li id="A-bank">Fidelity Bank</li>
-        <li id="A-bank">First Bank Of Nigeria</li>
-        <li id="A-bank">Guaranty Trust Bank</li>
-        <li id="A-bank">Heritage Bank</li>
-        <li id="A-bank">Keystone Bank</li>
-        <li id="A-bank">Stanbic Bank Plc</li>
-        <li id="A-bank">Union Bank Of Nigeria</li>
-        <li id="A-bank">Unity Bank Plc</li>
-        <li id="A-bank">United Bank For Africa</li>
-        <li id="A-bank">Zenith Bank</li>
+        <li id="A-bank"   onclick="nameMe('Access Bank')">
+          Access Bank
+        
+        </li>
+        <li
+          id="A-bank"
+        
+          onclick="nameMe('CROSS RIVER MICROFINANCE LTD') "
+        >
+          CROSS RIVER MICROFINANCE LTD
+        </li>
+        <li id="A-bank"   onclick="nameMe('Diamond Bank')">
+          Diamond Bank
+        
+        </li>
+
+        <li id="A-bank" class="eco" onclick="nameMe('EcoBank Nigeria')">
+          EcoBank Nigeria
+        
+        </li>
+
+        <li id="A-bank" onclick="nameMe('FCMB Bank')">
+          FCMB Bank
+        
+        </li>
+
+        <li id="A-bank" class="fair" onclick="nameMe('FairMoney MFB')">
+          FairMoney MFB
+        </span>
+        </li>
+
+        <li id="A-bank" class="fid" onclick="nameMe('Fidelity Bank')">
+          Fidelity Bank 
+        </li>
+
+        <li id="A-bank" class="fir" onclick="nameMe('First Bank Of Nigeria')">
+          First Bank Of Nigeria 
+        </li>
+
+        <li id="A-bank" onclick="nameMe('Guaranty Trust Bank')">
+          Guaranty Trust Bank 
+            
+        </li>
+
+        <li id="A-bank" onclick="nameMe('Heritage Bank')">
+          Heritage Bank
+           
+        </li>
+        <li id="A-bank" onclick="nameMe('Keystone Bank')">
+          Keystone Bank
+        </li>
+        <li id="A-bank" onclick="nameMe('Stanbic Bank Plc')">
+          Stanbic Bank Plc 
+        </li>
+        <li id="A-bank" onclick="nameMe('Union Bank Of Nigeria')">
+          Union Bank Of Nigeria 
+      
+        </li>
+        <li id="A-bank" onclick="nameMe('Unity Bank Plc')">
+          Unity Bank Plc
+        
+        </li>
+        <li id="A-bank" onclick="nameMe('United Bank For Africa')">
+          United Bank For Africa
+        </li>
+        <li id="A-bank" onclick="nameMe('Kuda MFB')">
+          Kuda MFB 
+        </li>
       </ul>
     </footer>
     <script src="bank.js"></script>
