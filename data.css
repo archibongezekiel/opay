@@ -16,36 +16,33 @@ body {
   color: #8497a4;
   cursor: default;
 }
-
-#pic {
-  width: 35px;
-  height: 35px;
-  border-radius: 100px;
+nav {
+  width: 83vh;
+  margin: auto;
 }
 a {
   text-decoration: none;
 }
-#UI {
-  border-bottom: 0.02667rem solid #eee;
-  width: 80vh;
-  margin: auto;
+#ul {
   display: flex;
-  padding: 20px;
-}
-.user-name {
-  margin-left: 10px;
-  color: #8497a4;
-  font-weight: 100;
-}
-.message {
-  color: #8497a4;
+  justify-content: space-between;
+  border-bottom: 0.02667rem solid #eee;
 
+  padding: 40px;
   margin: auto;
-  padding: 15px;
-  font-size: 20px;
-  font-weight: 100;
-
-  width: 80vh;
+  width: 83vh;
+  align-items: center;
+  color: #1dcf9f;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#label {
+  color: #1dcf9f;
+  font-size: 30px;
 }
 .container {
   width: 80vh;
@@ -56,56 +53,21 @@ a {
   margin: auto;
   color: #8497a4;
 }
-.add,
-.with,
-.trans,
-.life,
-.oweal,
-.bank {
-  text-align: center;
-}
-#draw,
-#transfer,
-#style,
-#weal,
-#card,
-#money {
-  border-radius: 20;
-  font-size: 70px;
-  color: #eef4f8;
 
-  border-radius: 20px;
-}
-.money {
-  background-color: #f4d030;
-}
-.draw {
-  background-color: #1dcf9f;
-}
-.tran {
-  background-color: #1dcf9f;
-}
-.style {
-  background-color: #f4d030;
-}
-.weal {
-  background-color: #1dcf9f;
-}
-.card {
-  background-color: #f4d030;
-}
 .container-x {
   border: 2px solid rgba(132, 151, 164, 0.2);
   width: 83vh;
   margin: auto;
-  margin-top: 50px;
+  height: 98vh;
+  margin-top: 10px;
   box-shadow: 0 0.05333rem 0.26667rem 0 rgba(49, 108, 169, 0.15);
+  border: 1px solid rgba(132, 151, 164, 0.2);
 }
 .input-container {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
-
+  margin-top: px;
+  margin: auto;
   width: 80vh;
   margin: auto;
   font-family: "Noto Sans NKo", sans-serif;
@@ -120,6 +82,19 @@ input {
   border-radius: 8px;
   font-size: 17px;
   color: #29303a;
+  margin-top: 7vh;
+}
+.input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  background-color: #1dcf9f;
+  font-size: 17px;
+  width: 80vh;
+  height: 60px;
+  margin-top: 40px;
 }
 .text-container {
   width: 80vh;
@@ -130,14 +105,6 @@ input {
   padding: 40px;
 }
 
-#air:hover {
-  border-bottom: 4px solid #1dcf9f;
-  border-radius: 1px;
-}
-#bet:hover {
-  border-bottom: 4px solid #1dcf9f;
-  border-radius: 1px;
-}
 .data-container {
   display: flex;
   border-radius: 8px;
@@ -147,7 +114,7 @@ input {
   margin: auto;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 7vh;
 }
 .data-offer {
   width: 80vh;
@@ -156,8 +123,6 @@ input {
   justify-content: space-between;
   flex-wrap: wrap;
   color: #8497a4;
-  padding: 10px;
-  padding: 30px;
 }
 #MB {
   padding: 20px;
@@ -178,15 +143,18 @@ input {
   border: 10px solid black;
 }
 footer {
-  height: 0;
+  position: absolute;
+  bottom: 34%;
+  display: none;
+}
+#bet {
+  border-bottom: 4px solid #1dcf9f;
+  border-radius: 1px;
 }
 ul {
   color: #323233;
-  position: relative;
-  bottom: 50vh;
-
-  border: 1px solid rgba(132, 151, 164, 0.2);
-  display: none;
+  height: 0;
+  width: 174vh;
 }
 .MTN-network,
 .AIRTEL-network,
@@ -205,6 +173,8 @@ ul {
   align-items: center;
   padding: 10px;
   background-color: #fff;
+
+  margin: auto;
 }
 .inline {
   display: flex;
@@ -212,7 +182,16 @@ ul {
   padding: 5px;
 }
 .title {
-  padding: 3px;
+  padding: 9px;
+}
+#title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #515f68;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  top: 30px;
 }
 #network-change1 {
   display: flex;

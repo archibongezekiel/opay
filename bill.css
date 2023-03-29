@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Satisfy&family=Zilla+Slab:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+body {
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  cursor: default;
+}
+nav {
+  width: 85vh;
+  margin: auto;
+  border-bottom: 0.03789rem solid #eee;
+}
+#ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  color: #1dcf9f;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: #8497a4;
+}
+#list {
+  font-size: 45px;
+  color: #8497a4;
+}
+#icons {
+  font-size: 45px;
+  color: #1dcf9f;
+}
+.container {
+  width: 85vh;
+  margin: auto;
+  margin-top: 20px;
+  height: 100vh;
+}
+.bill_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: #8497a4;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 1px;
+}
+.button {
+  outline: none;
+  border: none;
+  font-size: 24px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: #8497a4;
+}
+#button_1 {
+  color: #1dcf9f;
+  border-bottom: 3px solid #1dcf9f;
+}
+#container_tab {
+  width: 80vh;
+  margin: auto;
+  color: #8497a4;
+  background-color: #eef4f8;
+}
+#n {
+  background: #eef4f8;
+  width: 84vh;
+  margin: auto;
+  padding: 5px;
+
+  height: 90vh;
+}
+#search {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 15px;
+  width: 79vh;
+  margin: auto;
+  margin-top: 15px;
+  color: #8497a4;
+  font-size: 20px;
+  background-color: #fff;
+}
+#icon_search {
+  color: #8497a4;
+}
+#h5_data {
+  font-size: 3vh;
+  font-weight: 700;
+  color: #29303a;
+  margin: 10px;
+  width: 140px;
+  background-color: #eef4f8;
+}
+#bill_container {
+  width: 80vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: #eef4f8;
+}
+.bill_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #eef4f8;
+}
+.b {
+  padding-right: 0;
+}
+ul {
+  list-style: none;
+}
+#title {
+  display: flex;
+  align-items: center;
+
+  margin: 5px;
+  width: 30vh;
+  color: #8497a4;
+  background: #fff;
+  box-shadow: 1rem 0 rgba(0, 0, 0, 0.01);
+  height: 70px;
+  padding: 9px;
+  cursor: default;
+}
+img {
+  width: 7vh;
+  padding: 10px;
+}
+#id {
+  background-color: #29303a;
+}

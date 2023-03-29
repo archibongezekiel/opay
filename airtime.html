@@ -18,7 +18,7 @@
     <link rel="shortcut icon" href="download copy.png" type="image/x-icon" />
 
     <!--css stylesheet-->
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="airtime.css" />
     
     <!--wallet-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,200" />
@@ -34,111 +34,82 @@
 
     <!--close icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
+    <!--arrow back-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <title>Airtime & Data</title>
   </head>
   <body>
-    <header>
-      <nav id="UI">
-        
-          <a href="ezekiel.jpeg">
-            <img src="ezekiel.jpeg" alt="" id="pic" />
-          </a>
-          <h1 class="user-name">Ezekiel Archibong</h1>
-      
-        
-      </nav>
 
-    <div class="message"><span>Hi, welcome to OPay</span></div>
-    </header>
-    
-    <!--welcome message-->
-  
- 
+     <nav>
+      <ul id="ul">
 
-    <div class="container">
-<div class="add">
-      <span class="material-symbols-outlined money" id="money">
-      add_card
-      </span>
-      <br>
-      <span>Add Money</span>
-</div>
+      <a href="bill.html">
+        <li>
+          <span class="material-symbols-outlined" id="label">
+          arrow_back_ios
+          </span>
+        </li>
+      </a>
+     <li  id="label">Airtime & Data</li>
 
-<div class="with">
-       <a href="withdraw.html"><span class="material-symbols-outlined draw" id="draw">
-        wallet
-        </span>
-        <br>
-        <span>Withdraw</span></a>
-</div>
+     <a href="">
+      <li id="label">
+        Record
 
-   <div class="trans"> 
-       <a href="transfer.html">   <span class="material-symbols-outlined tran" id="transfer">
-        sync_alt
-        </span><br>
-        <span>Transfer</span></a>
- </div>
+     </li>
+    </a>
 
-  <div class="life">
-          <a href="bill.html">
-            <span class="material-symbols-outlined style" id="style">
-              payments
-              </span><br>
-              <span>Utilities&Lifestyle</span>
-          </a>
-  </div>
+    </ul>
+     </nav>
 
-<div class="oweal">
-          <span class="material-symbols-outlined weal"  id="weal">
-          savings
-         </span>
-         <br>
-         <span>OWealth </span>
-</div>
-
-<div class="bank">
-         <span class="material-symbols-outlined card" id="card">
-        credit_card
-        </span>
-        <br>
-        <span>Bank Card</span>
-</div>
-</div>
-   <!--end   of this -->  
-
-
-    <section class="container-x"> 
-   <div class="text-container"><span id="air"> Airtime</span> <span id="bet">Betting</span></div>
-
- <div class="input-container">
-  <input type="text" name="" id="" placeholder="Enter 10 digit phone number">
+    <section class="container-x">
+      <span id="title">Recipient phone number</span>
+<div class="input-container">
+        <input type="text" name="" id="" placeholder="Enter 10 digit phone number">
  </div>
 
  <!--network option-->
- <div class="data-container">  <span class="second-con"> 
-<img data-v-18970f23="" src="data:image/png;base64,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"> <span class="title">MTN</span></span>
-<span class="material-symbols-outlined   "> 
-arrow_forward_ios 
-</span></div>
+ <span id="title">Phone operator</span>
+ <div class="data-container">
+                    <span class="second-con"> 
+                                 <img data-v-18970f23="" src="data:image/png;base64,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"> <span class="title">MTN</span>
+                      </span>
+                              <span class="material-symbols-outlined   "> 
+                                   arrow_forward_ios 
+                            </span>
+</div>
    
   
 
 <div class="data-offer">
-  <div id="MB">50 <br/>- <br/>pay 50.00</div>
-  <div id="MB">100<br/> - <br/> pay 100.00</div>
-  <div id="MB">200 <br/>- <br/>pay 200.00</div> 
-   <div id="MB">500 <br/>- <br/>pay 500.00</div> 
-   <div id="MB">1000<br/> -<br/> pay 1,000.00</div>
-    <div id="MB">More <br/>peferential</div>
+     <div class="text-container"> 
+                                   <span id="air"> Airtime</span>  
+
+                                   <span id="bet"><a href="data.html">Mobile Data</a></span> 
+  </div>
+                         <div id="MB">50 <br/>- <br/>pay 50.00</div>
+                         <div id="MB">100<br/> - <br/> pay 100.00</div>
+                        <div id="MB">200 <br/>- <br/>pay 200.00</div> 
+                         <div id="MB">500 <br/>- <br/>pay 500.00</div> 
+                         <div id="MB">1000<br/> -<br/> pay 1,000.00</div>
+                          <div id="MB">More <br/>peferential</div>
 </div>
+
+<div class="input-container">
+                      <input type="text" name="" id="" placeholder="50~50,000" required>
+ </div>
+ 
+ <div class="input-container"> 
+ <button class="input">Next</button>
+ </div>
 </section>
 
- 
+<footer>
   <ul>
-    <li class="header"><span class="inline">Select phone operator</span> <span class="material-symbols-outlined">
+    <li class="header"><span class="inline">Select phone operator</span> <span class="material-symbols-outlined" id="close">
      close
      </span></li>
    <li class="MTN-network"> 
@@ -169,7 +140,7 @@ arrow_forward_ios
     </li>
  </ul>
    
- 
- <script src="home.js"></script>
+  </footer>
+ <script src="airtime.js"> </script>
   </body>
 </html>
