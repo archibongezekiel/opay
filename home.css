@@ -177,16 +177,16 @@ input {
 #pay50 {
   border: 10px solid black;
 }
-footer {
-  height: 0;
-}
+
 ul {
   color: #323233;
-  position: relative;
-  bottom: 50vh;
-
-  border: 1px solid rgba(132, 151, 164, 0.2);
+  border-top: 1px solid rgba(132, 151, 164, 0.2);
+  height: 0;
+}
+.nameOf_Network {
   display: none;
+  position: relative;
+  bottom: 40vh;
 }
 .MTN-network,
 .AIRTEL-network,
@@ -217,4 +217,7 @@ ul {
 #network-change1 {
   display: flex;
   align-items: center;
+}
+#drop_down_arrow {
+  font-size: 36px;
 }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cable TV</title>
+    <link rel="stylesheet" href="cableTv.css" />
+    <!-- x-icon -->
+    <link
+      rel="shortcut icon"
+      href="Image/downloadopay.png"
+      type="image/x-icon"
+    />
+    <!--end-->
+    <!--arrow back ios-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!--end   -->
+
+    <!--home-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!--end-->
+
+    <!--arrow  down-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!--end-->
+  </head>
+  <body>
+    <div class="head">
+      <ul id="header_container">
+        <!-- -->
+        <a href="bill.html"
+          ><li>
+            <span class="material-symbols-outlined" id="icon">
+              arrow_back_ios
+            </span>
+          </li></a
+        >
+        <!--- -->
+        <li id="icon">Cable TV</li>
+        <a href="Home.html"
+          ><li>
+            <span class="material-symbols-outlined" id="icon"> home </span>
+          </li></a
+        >
+      </ul>
+    </div>
+
+    <div class="Service_container">
+      <div id="Service_container">
+        <span class="title">Service Provider</span>
+        <div id="Provider_container">
+          <div id="image">
+            <img src="" alt="" class="image" />
+            <span id="title_display"> Choose a Provider</span>
+          </div>
+          <span class="material-symbols-outlined" id="arrow_down">
+            keyboard_arrow_down
+          </span>
+        </div>
+      </div>
+      <div id="channel">
+        <div id="head_title"><p class="head_title">Choose a Provider</p></div>
+        <ul class="option">
+          <li class="text" id="showmax">
+            <img src="Image/showmax.jpeg" />
+            <p>SHOWMAX</p>
+          </li>
+
+          <li class="text" id="startime">
+            <img src="Image/startime.jpeg" alt="" />
+            <p>STARTIME NG</p>
+          </li>
+
+          <li class="text" id="gotv">
+            <img src="Image/gotv.png" alt="" />
+            <p>GOTV</p>
+          </li>
+
+          <li class="text" id="dstv">
+            <img src="Image/dstv.jpeg" alt="" />
+            <p>DSTV SUBSCRIPTION</p>
+          </li>
+        </ul>
+      </div>
+      <!--package-->
+      <div class="package_container">
+        <span id="title">Package </span>
+        <div id="package_container">
+          <span id="name">Choose a Package</span>
+          <span class="material-symbols-outlined" id="arrow_down">
+            keyboard_arrow_down
+          </span>
+        </div>
+      </div>
+      <!--end-->
+      <!--package plan-->
+      <div class="package_offer">
+        <div id="choose"><p id="choose_head">Choose a Package</p></div>
+        <ul>
+          <li class="month_subscription" id="pro">1 MONTH PACKAGE PRO</li>
+          <li class="month_subscription" id="promax">
+            1 MONTH PACKAGE PRO MAX
+          </li>
+          <li class="month_subscription" id="mobile">1 MONTH PACKAGE MOBILE</li>
+          <li class="month_subscription" id="mobile2">
+            1 MONTH PACKAGE MOBILE PRO
+          </li>
+          <li class="month_subscription" id="package">1 MONTH PACKAGE</li>
+        </ul>
+      </div>
+      <!--end-->
+      <!--smart card number-->
+      <div class="display">
+        <div class="smartCard_container">
+          <span id="title">Smart Card Number</span>
+          <input type="text" id="card_number" placeholder="Smart Card Number" />
+        </div>
+      </div>
+      <!--end-->
+
+      <!--amount-->
+      <div class="amount_container">
+        <span id="title">Amount</span>
+        <input type="text" id="amount_number" placeholder="₦0.00" />
+      </div>
+      <!--end-->
+      <div id="submit_box">
+        <input type="submit" value="Next" class="submit_input" />
+      </div>
+    </div>
+
+    <script src="cable.js"></script>
+  </body>
+</html>

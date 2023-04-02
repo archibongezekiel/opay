@@ -55,19 +55,18 @@ li {
   border: 2px solid rgba(132, 151, 164, 0.2);
   width: 83vh;
   margin: auto;
-  height: 98vh;
+  height: 110vh;
   margin-top: 10px;
   box-shadow: 0 0.05333rem 0.26667rem 0 rgba(49, 108, 169, 0.15);
   border: 1px solid rgba(132, 151, 164, 0.2);
 }
 .input-container {
   display: flex;
-  justify-content: center;
-
+  flex-direction: column;
   margin: auto;
 
   width: 80vh;
-  margin: auto;
+
   font-family: "Noto Sans NKo", sans-serif;
 }
 input {
@@ -93,7 +92,7 @@ input {
   font-size: 17px;
   width: 80vh;
   height: 60px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .text-container {
   width: 80vh;
@@ -103,7 +102,10 @@ input {
   font-size: 22px;
   padding: 40px;
 }
-
+.n {
+  display: flex;
+  align-items: center;
+}
 #air {
   border-bottom: 4px solid #1dcf9f;
   border-radius: 1px;
@@ -118,6 +120,7 @@ input {
   margin: auto;
   justify-content: space-between;
   padding: 10px;
+
   margin-top: 7vh;
 }
 .data-offer {
@@ -139,10 +142,7 @@ input {
 #MB:hover {
   border: 5px solid #1dcf9f;
 }
-.second-con {
-  display: flex;
-  align-items: center;
-}
+
 #pay50 {
   border: 10px solid black;
 }
@@ -174,7 +174,7 @@ ul {
   align-items: center;
   padding: 10px;
   background-color: #fff;
-
+  border-top: 1px solid rgba(132, 151, 164, 0.2);
   margin: auto;
 }
 .inline {
@@ -197,4 +197,7 @@ ul {
 #network-change1 {
   display: flex;
   align-items: center;
+}
+#drop_down_arrow {
+  font-size: 36px;
 }
