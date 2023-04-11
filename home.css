@@ -16,7 +16,14 @@ body {
   color: #8497a4;
   cursor: default;
 }
-
+.balance {
+  display: flex;
+  flex-direction: column;
+}
+#balance {
+  padding: 5px;
+  margin-left: 6px;
+}
 #pic {
   width: 35px;
   height: 35px;
@@ -30,6 +37,7 @@ a {
   width: 80vh;
   margin: auto;
   display: flex;
+
   padding: 20px;
 }
 .user-name {

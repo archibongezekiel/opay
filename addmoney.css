@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Satisfy&family=Zilla+Slab:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  font-family: "Noto Sans NKo", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Zilla Slab", serif;
+}
+.head {
+  width: 58vh;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.02667rem solid #eee;
+  color: #1dcf9f;
+}
+h1 {
+  font-size: 20px;
+}
+#back {
+  font-size: 20px;
+  color: #1dcf9f;
+}
+#form {
+  display: flex;
+
+  flex-direction: column;
+  height: 420px;
+  margin: auto;
+  width: 58vh;
+  margin-top: 80px;
+}
+#cardExpiry {
+  display: flex;
+  justify-content: space-between;
+}
+.expiry,
+.cvv {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.title {
+  font-size: 20px;
+  padding: 5px;
+  color: #515f68;
+}
+input {
+  border: none;
+  outline: none;
+  height: 56px;
+  font-size: 16px;
+  padding: 10px;
+  background: #eef4f8;
+  margin: 5px;
+  border-radius: 5px;
+}
+#error {
+  padding: 4px;
+  color: red;
+  display: none;
+}
+#issue {
+  font-size: 13px;
+  margin: 5px;
+  padding: 5px;
+  color: #515f68;
+}
+#submit {
+  border: none;
+  outline: none;
+  height: 56px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #1dcf9f;
+  opacity: 0.3;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Satisfy&family=Zilla+Slab:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Noto Sans NKo", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Zilla Slab", serif;
+  margin: 0;
+}
+.record {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83vh;
+  margin: auto;
+  padding: 30px;
+  border-bottom: 0.02667rem solid #eee;
+}
+#icon {
+  font-size: 25px;
+  color: #1dcf9f;
+}
+.records {
+  text-align: center;
+
+  width: 83vh;
+  padding: 50px;
+  margin: auto;
+}

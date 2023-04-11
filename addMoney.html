@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="addmoney.css" />
+    <link
+      rel="shortcut icon"
+      href="Image/downloadopay.png"
+      type="image/x-icon"
+    />
+    <title>Add Money</title>
+  </head>
+  <body>
+    <div class="head">
+      <div id="headTitile">
+        <a href="Home.html"
+          ><span class="material-symbols-outlined" id="back">
+            arrow_back_ios
+          </span></a
+        >
+      </div>
+      <h1>Add Money</h1>
+      <span></span>
+    </div>
+    <form action="" id="form">
+      <label for="name" title="Name on Card" class="title">Name on Card</label>
+      <input
+        type="text"
+        name="YourName"
+        id="name"
+        required
+        placeholder="Your Name"
+      />
+      <label for="card" title="Card Number" class="title">Card Number</label>
+      <input
+        type="text"
+        name="cardNumber"
+        id="card"
+        required
+        maxlength="16"
+        placeholder="1234 1234 1234 1234"
+      />
+      <p id="error" class="error1">❗️Enter Card Number</p>
+      <div id="cardExpiry">
+        <div class="expiry">
+          <label for="expiry" title="Expir yDate" class="title"
+            >Expiry Date</label
+          >
+          <input
+            type="text"
+            name="ExpiryDate"
+            id="expiry"
+            required
+            placeholder="MM/YY"
+            maxlength="4"
+          />
+          <p id="error" class="error2">❗️Enter Card Expiry Date</p>
+        </div>
+        <div class="cvv">
+          <label for="cvv" title="CVV" class="title">CVV</label>
+          <input
+            type="text"
+            name="cvv"
+            id="cvv"
+            required
+            placeholder="123"
+            maxlength="3"
+          />
+          <p id="error" class="error3">❗️Enter Card CVV Number</p>
+        </div>
+      </div>
+      <div id="issue">
+        <p>
+          The issuer of your debit card may request that you type in your card
+          PIN to validate this transaction. Opay does not have access to your
+          card PIN and we do not store this personal information.
+        </p>
+      </div>
+      <button type="submit" id="submit">Next</button>
+    </form>
+    <script src="addmoney.js"></script>
+  </body>
+</html>

@@ -77,7 +77,7 @@ a {
   margin: auto;
   padding: 5px;
 
-  height: 90vh;
+  height: 50vh;
 }
 #search {
   display: flex;
@@ -98,14 +98,16 @@ a {
   font-size: 3vh;
   font-weight: 700;
   color: #29303a;
-  margin: 10px;
-  width: 140px;
+  margin-left: 80px;
+  width: 170px;
+  padding: 10px;
   background-color: #eef4f8;
 }
 #bill_container {
   width: 80vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: auto;
   background-color: #eef4f8;
 }

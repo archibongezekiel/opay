@@ -18,6 +18,9 @@ html {
   color: #1dcf9f;
   border-bottom: 0.02667rem solid #eee;
 }
+a {
+  text-decoration: none;
+}
 .ul {
   display: flex;
   justify-content: center;

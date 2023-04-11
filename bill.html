@@ -51,8 +51,8 @@
     </nav>
     <div class="container">
       <div class="bill_container">
-        <button class="button" id="button_1">Bills</button
-        ><button class="button">History</button>
+        <button class="button" id="button_1">Bills</button>
+        <a href="history.html"><button class="button">History</button></a>
       </div>
 
       <div id="n">
@@ -81,24 +81,11 @@
             >
 
             <li id="title">
-              <span class="material-symbols-outlined"> local_parking </span>
-              <span>Products and service</span>
-            </li>
-
-            <li id="title">
               <img
                 data-v-6e748b0d=""
                 src="https://files.opayweb.com/images/scene-web/logo/Travel_GP.png"
               />
               <span>Travel & Hotel</span>
-            </li>
-
-            <li id="title">
-              <img
-                data-v-6e748b0d=""
-                src="https://files.opayweb.com/images/scene-web/logo/Cable%20TV_GP.png"
-              />
-              <span>TV</span>
             </li>
           </ul>
 
@@ -112,34 +99,23 @@
               </li></a
             >
 
-            <li id="title">
-              <img
-                data-v-6e748b0d=""
-                src="https://files.opayweb.com/images/scene-web/logo/Utilities_GP.png"
-              /><span>Electricity</span>
-            </li>
+            <a href="electricity.html" id="title">
+              <li id="title">
+                <img
+                  data-v-6e748b0d=""
+                  src="https://files.opayweb.com/images/scene-web/logo/Utilities_GP.png"
+                /><span>Electricity</span>
+              </li></a
+            >
 
-            <li id="title">
-              <img
-                data-v-6e748b0d=""
-                src="https://files.opayweb.com/images/scene-web/logo/School_GP.png"
-              /><span>School & Exam</span>
-            </li>
-
-            <li id="title">
-              <img
-                data-v-6e748b0d=""
-                src="https://files.opayweb.com/images/scene-web/logo/Government%20Payments_GP.png"
-              /><span>Government Payments </span>
-            </li>
-
-            <li id="title">
-              <img
-                data-v-6e748b0d=""
-                src="data:image/png;base64,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"
-                alt=""
-              /><span>More Biller...</span>
-            </li>
+            <a href="school.html" id="title">
+              <li id="title">
+                <img
+                  data-v-6e748b0d=""
+                  src="https://files.opayweb.com/images/scene-web/logo/School_GP.png"
+                /><span>School & Exam</span>
+              </li></a
+            >
           </ul>
         </div>
       </div>
